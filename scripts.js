@@ -13,9 +13,9 @@ function draw() {
   ellipseRandom = random(1, ellipseDiameter);
     console.log(ellipseRandom);
     if (mouseIsPressed) {
-      fill(37, 90, 164);
+      fill(25, 14, 58);
     } else {
-      fill(37, 90, 164);
+      fill(25, 14, 58);
     }
     ellipse(mouseX, mouseY, ellipseRandom, ellipseRandom);
   }
