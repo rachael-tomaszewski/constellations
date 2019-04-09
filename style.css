@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+    background-color: #0d0129;
+    background-image: url("stars.jpg");
+}
+
+img {
+    opacity: 0.3;
+      filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+  
+  .audio {
+    transition-delay: 2s;
+  }
