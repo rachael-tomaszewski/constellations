@@ -1,4 +1,4 @@
-var ellipseDiameter = 20;
+var ellipseDiameter = 8;
 var ellipseRandom;
 
 
@@ -13,10 +13,15 @@ function draw() {
   ellipseRandom = random(1, ellipseDiameter);
     console.log(ellipseRandom);
     if (mouseIsPressed) {
-      fill(25, 14, 58);
+      fill(111, 105, 131);
     } else {
-      fill(25, 14, 58);
+      noFill();
     }
     ellipse(mouseX, mouseY, ellipseRandom, ellipseRandom);
   }
 
+var audio1 = document.getElementById("audioID");
+
+function playAudio() {
+    audio1.play();
+}

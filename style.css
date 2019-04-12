@@ -1,7 +1,7 @@
 body {
 	margin: 0;
     background-color: #0d0129;
-    background-image: url("stars.jpg");
+    background-image: url("STARSIL.jpg");
 }
 
 img {
@@ -12,3 +12,7 @@ img {
   .audio {
     transition-delay: 2s;
   }
+
+cursor {
+    cursor: pointer;
+}
