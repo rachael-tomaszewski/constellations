@@ -13,6 +13,6 @@ img {
     transition-delay: 2s;
   }
 
-cursor {
+* {
     cursor: pointer;
 }
